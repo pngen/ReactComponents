@@ -1,0 +1,22 @@
+{
+	"name": "clock",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build-clock": "./node_modules/.bin/babel jsx -d js -w"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"babel-cli": "^6.26.0"
+	},
+	"devDependencies": {
+		"babel-preset-react": "^6.24.1"
+	},
+	"babel": {
+		"presets": [
+			"react"
+		]
+	}
+}
