@@ -8,14 +8,15 @@ class Clock extends React.Component {
 		setInterval(() => {
 			console.log("Updating time...");
 			this.setState({ currentTime: new Date().toLocaleString() });
-		}, 1000); // new Date() state called every second
+		}, 1000);
 	}
 	render() {
-		console.log("Rendering Clock...");
+		console.log("Rendering...");
 		return React.createElement(
 			"div",
 			null,
-			this.state.currentTime
+			React.createElement(AnalogDisplay, { time: this.state.currentTime }),
+			React.createElement(DigitalDisplay, { time: this.state.currentTime })
 		);
 	}
 }
