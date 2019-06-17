@@ -1,6 +1,8 @@
 # react-clock-analog-digital
+# Demo
 
-# Bug Fixes
+
+## Bug Fixes
 ## Always Use Arrow Functions! (=>)
 
 When creating stateless/functional components during method declaration, the textbook code had a bug where <br />
