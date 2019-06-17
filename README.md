@@ -8,7 +8,8 @@
 When creating stateless/functional components during method declaration, the textbook code had a bug where:<br />
 `const DigitalDisplay = function DigitalDisplay(props) {...}`<br /> 
 and:<br /> 
-`const AnalogDisplay = function AnalogDisplay(props) {...}` would not be invoked. 
+`const AnalogDisplay = function AnalogDisplay(props) {...}`<br />
+would not be invoked. 
 
 Instead, use modern JavaScript/ES6 like:<br /> 
 `const DigitalDisplay = (props) => {...}`<br /> 
