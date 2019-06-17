@@ -1,7 +1,7 @@
 # react-clock-analog-digital
 
 # Major Bug Fixes:
-##Always use fat-arrow functions (=>)## 
+## Always use fat-arrow functions (=>)
 
 When creating stateless/functional components during method declaration, the textbook code had a bug where `const DigitalDisplay = function DigitalDisplay(props) {...}` and `const AnalogDisplay = function AnalogDisplay(props) {...}` would not be invoked I think. 
 
