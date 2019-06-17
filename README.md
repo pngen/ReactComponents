@@ -1,6 +1,6 @@
 # react-clock-analog-digital
 # Demo
-![Real-Time React Clock](react-clock-analog-digital/demogif/clock-analog-digital.gif)
+![Real-Time React Clock](demogif/clock-analog-digital.gif)
 
 ## Bug Fixes
 ## Always Use Arrow Functions! (=>)
