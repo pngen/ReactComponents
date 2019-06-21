@@ -1,10 +1,8 @@
 # clock-analog-digital (React)
-# Demo
+## Demo
 ![Real-Time React Clock](demogif/clock-analog-digital.gif)
-
 # Bug Fixes
 ## Always Use Arrow Functions (=>)
-
 When creating stateless/functional components during method declaration, the textbook code had a bug where:<br />
 `const DigitalDisplay = function DigitalDisplay(props) {...}`<br /> 
 and:<br /> 
