@@ -1,4 +1,4 @@
-# react-clock-analog-digital
+# clock-analog-digital (React)
 # Demo
 ![Real-Time React Clock](demogif/clock-analog-digital.gif)
 
